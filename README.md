@@ -11,7 +11,7 @@
 To install MRZScanner_iOS using CocoaPods, integrate it in your existing Podfile, or create a new Podfile:
 
 ```ruby
-pod 'SDCAlertView'
+pod 'MRZScanner_iOS'
 ```
 
 # Usage
