@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				94E754168B645B7DBDC26F7E /* [CP] Embed Pods Frameworks */,
+				C539E82B57CD5BCC5059BF72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -360,6 +361,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRZScanner_iOS_Example/Pods-MRZScanner_iOS_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C539E82B57CD5BCC5059BF72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MRZScanner_iOS_Example/Pods-MRZScanner_iOS_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MRZScanner_iOS/MRZScanner_iOS.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MRZScanner_iOS.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRZScanner_iOS_Example/Pods-MRZScanner_iOS_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -498,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U3ZUX9Q8BQ;
+				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRZScanner_iOS/MRZScanner_iOS-Prefix.pch";
 				INFOPLIST_FILE = "MRZScanner_iOS/MRZScanner_iOS-Info.plist";
@@ -516,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U3ZUX9Q8BQ;
+				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRZScanner_iOS/MRZScanner_iOS-Prefix.pch";
 				INFOPLIST_FILE = "MRZScanner_iOS/MRZScanner_iOS-Info.plist";
