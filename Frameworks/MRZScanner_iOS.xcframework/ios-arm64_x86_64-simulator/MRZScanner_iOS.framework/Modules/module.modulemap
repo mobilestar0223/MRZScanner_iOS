@@ -1,0 +1,6 @@
+framework module MRZScanner_iOS {
+  umbrella header "MRZScanner_iOS.h"
+
+  export *
+  module * { export * }
+}
