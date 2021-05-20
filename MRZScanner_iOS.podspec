@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MRZScanner_iOS'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Library for scan MRZ'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ s.description      = 'Library for scan MRZ'
 
   s.source_files = 'MRZScanner_iOS/Classes/**/*'
   s.vendored_frameworks = 'Frameworks/MRZScanner_iOS.xcframework'
-  
+  s.resources = 'MRZScanner_iOS/Assets/*'
    s.resource_bundles = {
      'MRZScanner_iOS' => ['MRZScanner_iOS/Assets/*']
    }

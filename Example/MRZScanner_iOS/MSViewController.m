@@ -21,6 +21,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     [MRZScanner initializeScanner];
+    NSLog(@"Done");
 }
 
 - (void)didReceiveMemoryWarning
