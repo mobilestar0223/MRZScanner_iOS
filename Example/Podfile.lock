@@ -1,5 +1,5 @@
 PODS:
-  - MRZScanner_iOS (0.1.2)
+  - MRZScanner_iOS (0.1.5)
 
 DEPENDENCIES:
   - MRZScanner_iOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MRZScanner_iOS: 847a62c0807638703d8e88b24b0b284f44bfa55b
+  MRZScanner_iOS: 90b5e9d49b686fac7c2262d9db723521f2982191
 
 PODFILE CHECKSUM: 7bc68c6911906d74d42f72fd6051d844d2467af1
 

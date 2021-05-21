@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MRZScanner_iOS'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Library for scan MRZ'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ s.description      = 'Library for scan MRZ'
   s.source           = { :git => 'https://github.com/mobilestar0223/MRZScanner_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'MRZScanner_iOS/Classes/**/*'
   s.vendored_frameworks = 'Frameworks/MRZScanner_iOS.xcframework'

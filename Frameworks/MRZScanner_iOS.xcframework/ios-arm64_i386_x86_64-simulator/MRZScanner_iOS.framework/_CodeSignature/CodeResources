@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4+fKDpepK2zUUnlLxj4xIgieaFE=
+		WGeDmvUdcmJHofNXkJaeSRRCk+8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -33,6 +33,10 @@
 	<dict>
 		<key>Headers/MRZScanner_iOS.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ehwDi1qXLMVgRwPwAs8kGYqjfp0=
+			</data>
 			<key>hash2</key>
 			<data>
 			EgZS936Wkpt74zFB0PrHZfrabzhcpKfIlnhQ0mxCHMk=
@@ -40,6 +44,10 @@
 		</dict>
 		<key>Headers/MyEngineMRZWrapper.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RtcZji22XbjcKBe30m0fDdKs+WM=
+			</data>
 			<key>hash2</key>
 			<data>
 			CYKQ3j8dvNCuLxmqCuYP7/KWcpNOqCAB0RfJdE7F61g=
@@ -47,6 +55,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Kregp+eqa0CRIK8+oPvvWFwejtc=
+			</data>
 			<key>hash2</key>
 			<data>
 			h+jCwHHf+9VyOF1FfoB232veEki4LHYQvd/ztRPXes4=
@@ -54,6 +66,10 @@
 		</dict>
 		<key>pattern.dic</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			38k89ZfFrkgKQCHCOvRpXgG1MFA=
+			</data>
 			<key>hash2</key>
 			<data>
 			sBgig9mP0TevZUhsSPWIGbJYKp71AXdUCrIZypzQIDY=
@@ -61,6 +77,10 @@
 		</dict>
 		<key>pattern_g.dic</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			y/e5l/CcgWM//QQSePyQnMd+ahA=
+			</data>
 			<key>hash2</key>
 			<data>
 			LmEaKouzvpVcdLOgQooNbgZxJxuqHBk36CG9UNzVEPM=
