@@ -2,7 +2,7 @@
 
 # Requirements
 - Objective-C, Swift 4.0 or higher
-- iOS 12 or higher
+- iOS 9.0 or higher
 
 
 # Installation
